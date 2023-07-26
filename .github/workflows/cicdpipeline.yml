@@ -53,8 +53,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: java-app
-          path: ./
-          search_artifacts: true
           
 
       - name: Deploy to Azure Web App
